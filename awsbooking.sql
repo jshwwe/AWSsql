@@ -84,8 +84,8 @@ ALTER TABLE `bookings`
 ALTER TABLE `users`
   MODIFY `userid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
   
-CREATE USER ‘user’@’%’ IDENTIFIED BY ‘root’;
-GRANT ALL PRIVILEGES ON awsbooking.* TO ‘user’@’%’;
+CREATE USER `user`@`%` IDENTIFIED BY `root`;
+GRANT ALL PRIVILEGES ON awsbooking.* TO `user`@`%`;
 
 COMMIT;
 
